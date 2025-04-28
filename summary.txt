@@ -1,0 +1,4 @@
+The first thing I adjusted was the objects in the cart. For a realistic scenario, I adjusted the items to pick between 10 and 40. This increased average wait time to 3.02 minutes and a total idle time of 646 minutes.
+I adjusted the shopping time to be a random interval, because finding items at the grocery store is not a perfect science. The number of items can be divided by a random interval from 1 to 3. This should allow the time to collect an item to be anywhere from 1 minute to 20 seconds. Higher numbers allowd for shorter wait times and longer idle times.
+I changed the number of checkers to 10 to more accurately represent a grocery store. This had a minimal effect on wait times but drastically increased idle time.
+I increased the amount of new shoppers to every 30 seconds, because shoppers are constantly entering and exiting big grocery stores from multiple entrances. This increased total wait time marginally but almost cut the total idle time in half.
